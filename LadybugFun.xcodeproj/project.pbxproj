@@ -3,30 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AFC3B8C727AE7EAF00986276 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B8C627AE7EAF00986276 /* AppDelegate.swift */; };
-		AFC3B8C927AE7EAF00986276 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B8C827AE7EAF00986276 /* GameScene.sks */; };
-		AFC3B8CB27AE7EAF00986276 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B8CA27AE7EAF00986276 /* Actions.sks */; };
-		AFC3B8CD27AE7EAF00986276 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B8CC27AE7EAF00986276 /* GameScene.swift */; };
-		AFC3B8CF27AE7EAF00986276 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B8CE27AE7EAF00986276 /* GameViewController.swift */; };
-		AFC3B8D227AE7EAF00986276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B8D027AE7EAF00986276 /* Main.storyboard */; };
-		AFC3B8D427AE7EB100986276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B8D327AE7EB100986276 /* Assets.xcassets */; };
-		AFC3B8D727AE7EB100986276 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B8D527AE7EB100986276 /* LaunchScreen.storyboard */; };
+		AFC3B8E127AED83300986276 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B8E027AED83300986276 /* GoogleService-Info.plist */; };
+		AFC3B96D27AEE09100986276 /* PauseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B95827AEE08C00986276 /* PauseMenuViewController.swift */; };
+		AFC3B96E27AEE09100986276 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B95927AEE08C00986276 /* Actions.sks */; };
+		AFC3B97127AEE09100986276 /* DifficultiesForLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B95C27AEE08C00986276 /* DifficultiesForLevels.swift */; };
+		AFC3B97327AEE09100986276 /* ShowAdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B95E27AEE08D00986276 /* ShowAdViewController.swift */; };
+		AFC3B97427AEE09100986276 /* ATT.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B95F27AEE08D00986276 /* ATT.swift */; };
+		AFC3B97527AEE09100986276 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B96027AEE08F00986276 /* Assets.xcassets */; };
+		AFC3B97627AEE09100986276 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B96127AEE08F00986276 /* GameViewController.swift */; };
+		AFC3B97827AEE09100986276 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B96327AEE08F00986276 /* PurchaseViewController.swift */; };
+		AFC3B97927AEE09100986276 /* ReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B96427AEE08F00986276 /* ReachabilityViewController.swift */; };
+		AFC3B97D27AEE09100986276 /* VibroNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B96827AEE09000986276 /* VibroNotifications.swift */; };
+		AFC3B97F27AEE09100986276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B96A27AEE09000986276 /* Main.storyboard */; };
+		AFC3B98727AEE14900986276 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B98527AEE14900986276 /* MainMenuScene.swift */; };
+		AFC3B98827AEE14B00986276 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B98627AEE14900986276 /* MainMenuScene.sks */; };
+		AFC3B98B27AEE15400986276 /* MapOfLevels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B98A27AEE15400986276 /* MapOfLevels.swift */; };
+		AFC3B98C27AEE15700986276 /* MapOfLevels.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B98927AEE15400986276 /* MapOfLevels.sks */; };
+		AFC3B98F27AEE18E00986276 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC3B98E27AEE18E00986276 /* GameScene.swift */; };
+		AFC3B99027AEE19300986276 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B98D27AEE18E00986276 /* GameScene.sks */; };
+		AFC3B99927AEEC6E00986276 /* ExtraLife.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B99727AEEC6900986276 /* ExtraLife.wav */; };
+		AFC3B99A27AEEC7100986276 /* GameOver.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B99827AEEC6900986276 /* GameOver.wav */; };
+		AFC3B99B27AEEC7400986276 /* HittingDick.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B99627AEEC6900986276 /* HittingDick.wav */; };
+		AFC3B99C27AEEC7700986276 /* HittingRock.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B99427AEEC6900986276 /* HittingRock.wav */; };
+		AFC3B99D27AEEC7B00986276 /* Win.wav in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B99527AEEC6900986276 /* Win.wav */; };
+		F3D7D8D296D69F778C4177EA /* Pods_LadybugFun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100FD67880D6396CFAA35B79 /* Pods_LadybugFun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100FD67880D6396CFAA35B79 /* Pods_LadybugFun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LadybugFun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9332E56C7AE41770CDF50379 /* Pods-LadybugFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LadybugFun.debug.xcconfig"; path = "Target Support Files/Pods-LadybugFun/Pods-LadybugFun.debug.xcconfig"; sourceTree = "<group>"; };
+		A5CCDF1095A75E6D06C1AB5B /* Pods-LadybugFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LadybugFun.release.xcconfig"; path = "Target Support Files/Pods-LadybugFun/Pods-LadybugFun.release.xcconfig"; sourceTree = "<group>"; };
 		AFC3B8C327AE7EAF00986276 /* LadybugFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LadybugFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFC3B8C627AE7EAF00986276 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFC3B8C827AE7EAF00986276 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		AFC3B8CA27AE7EAF00986276 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		AFC3B8CC27AE7EAF00986276 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		AFC3B8CE27AE7EAF00986276 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		AFC3B8D127AE7EAF00986276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AFC3B8D327AE7EB100986276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AFC3B8D627AE7EB100986276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFC3B8DD27AE88DE00986276 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AFC3B8E027AED83300986276 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFC3B95827AEE08C00986276 /* PauseMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseMenuViewController.swift; sourceTree = "<group>"; };
+		AFC3B95927AEE08C00986276 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		AFC3B95C27AEE08C00986276 /* DifficultiesForLevels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifficultiesForLevels.swift; sourceTree = "<group>"; };
+		AFC3B95E27AEE08D00986276 /* ShowAdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAdViewController.swift; sourceTree = "<group>"; };
+		AFC3B95F27AEE08D00986276 /* ATT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATT.swift; sourceTree = "<group>"; };
+		AFC3B96027AEE08F00986276 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFC3B96127AEE08F00986276 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AFC3B96327AEE08F00986276 /* PurchaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		AFC3B96427AEE08F00986276 /* ReachabilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityViewController.swift; sourceTree = "<group>"; };
+		AFC3B96827AEE09000986276 /* VibroNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VibroNotifications.swift; sourceTree = "<group>"; };
+		AFC3B96A27AEE09000986276 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AFC3B98527AEE14900986276 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		AFC3B98627AEE14900986276 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		AFC3B98927AEE15400986276 /* MapOfLevels.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MapOfLevels.sks; sourceTree = "<group>"; };
+		AFC3B98A27AEE15400986276 /* MapOfLevels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOfLevels.swift; sourceTree = "<group>"; };
+		AFC3B98D27AEE18E00986276 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AFC3B98E27AEE18E00986276 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AFC3B99427AEEC6900986276 /* HittingRock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HittingRock.wav; sourceTree = "<group>"; };
+		AFC3B99527AEEC6900986276 /* Win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Win.wav; sourceTree = "<group>"; };
+		AFC3B99627AEEC6900986276 /* HittingDick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = HittingDick.wav; sourceTree = "<group>"; };
+		AFC3B99727AEEC6900986276 /* ExtraLife.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ExtraLife.wav; sourceTree = "<group>"; };
+		AFC3B99827AEEC6900986276 /* GameOver.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOver.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,17 +71,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D7D8D296D69F778C4177EA /* Pods_LadybugFun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CD45DB7D4CE370BAFC0A386 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				100FD67880D6396CFAA35B79 /* Pods_LadybugFun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD81690E68FBE919C0E4659B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9332E56C7AE41770CDF50379 /* Pods-LadybugFun.debug.xcconfig */,
+				A5CCDF1095A75E6D06C1AB5B /* Pods-LadybugFun.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AFC3B8BA27AE7EAF00986276 = {
 			isa = PBXGroup;
 			children = (
 				AFC3B8C527AE7EAF00986276 /* LadybugFun */,
 				AFC3B8C427AE7EAF00986276 /* Products */,
+				AD81690E68FBE919C0E4659B /* Pods */,
+				6CD45DB7D4CE370BAFC0A386 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,15 +117,64 @@
 			isa = PBXGroup;
 			children = (
 				AFC3B8C627AE7EAF00986276 /* AppDelegate.swift */,
-				AFC3B8C827AE7EAF00986276 /* GameScene.sks */,
-				AFC3B8CA27AE7EAF00986276 /* Actions.sks */,
-				AFC3B8CC27AE7EAF00986276 /* GameScene.swift */,
-				AFC3B8CE27AE7EAF00986276 /* GameViewController.swift */,
-				AFC3B8D027AE7EAF00986276 /* Main.storyboard */,
-				AFC3B8D327AE7EB100986276 /* Assets.xcassets */,
-				AFC3B8D527AE7EB100986276 /* LaunchScreen.storyboard */,
+				AFC3B96127AEE08F00986276 /* GameViewController.swift */,
+				AFC3B95827AEE08C00986276 /* PauseMenuViewController.swift */,
+				AFC3B95E27AEE08D00986276 /* ShowAdViewController.swift */,
+				AFC3B96327AEE08F00986276 /* PurchaseViewController.swift */,
+				AFC3B96427AEE08F00986276 /* ReachabilityViewController.swift */,
+				AFC3B95C27AEE08C00986276 /* DifficultiesForLevels.swift */,
+				AFC3B96827AEE09000986276 /* VibroNotifications.swift */,
+				AFC3B95F27AEE08D00986276 /* ATT.swift */,
+				AFC3B99227AEE1CD00986276 /* MainMenuScene */,
+				AFC3B99327AEE1DA00986276 /* MapOfLevels */,
+				AFC3B99127AEE1B100986276 /* GameScene */,
+				AFC3B99E27AEECA100986276 /* Sounds */,
+				AFC3B96A27AEE09000986276 /* Main.storyboard */,
+				AFC3B95927AEE08C00986276 /* Actions.sks */,
+				AFC3B96027AEE08F00986276 /* Assets.xcassets */,
+				AFC3B8DD27AE88DE00986276 /* Info.plist */,
+				AFC3B8E027AED83300986276 /* GoogleService-Info.plist */,
 			);
 			path = LadybugFun;
+			sourceTree = "<group>";
+		};
+		AFC3B99127AEE1B100986276 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3B98D27AEE18E00986276 /* GameScene.sks */,
+				AFC3B98E27AEE18E00986276 /* GameScene.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		AFC3B99227AEE1CD00986276 /* MainMenuScene */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3B98627AEE14900986276 /* MainMenuScene.sks */,
+				AFC3B98527AEE14900986276 /* MainMenuScene.swift */,
+			);
+			path = MainMenuScene;
+			sourceTree = "<group>";
+		};
+		AFC3B99327AEE1DA00986276 /* MapOfLevels */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3B98927AEE15400986276 /* MapOfLevels.sks */,
+				AFC3B98A27AEE15400986276 /* MapOfLevels.swift */,
+			);
+			path = MapOfLevels;
+			sourceTree = "<group>";
+		};
+		AFC3B99E27AEECA100986276 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AFC3B99727AEEC6900986276 /* ExtraLife.wav */,
+				AFC3B99827AEEC6900986276 /* GameOver.wav */,
+				AFC3B99627AEEC6900986276 /* HittingDick.wav */,
+				AFC3B99427AEEC6900986276 /* HittingRock.wav */,
+				AFC3B99527AEEC6900986276 /* Win.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AFC3B8DA27AE7EB100986276 /* Build configuration list for PBXNativeTarget "LadybugFun" */;
 			buildPhases = (
+				2E788089622731D407AB01C6 /* [CP] Check Pods Manifest.lock */,
 				AFC3B8BF27AE7EAF00986276 /* Sources */,
 				AFC3B8C027AE7EAF00986276 /* Frameworks */,
 				AFC3B8C127AE7EAF00986276 /* Resources */,
+				7FE730F250FC9745F7AD6A30 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,6 +208,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = Training;
 				TargetAttributes = {
 					AFC3B8C227AE7EAF00986276 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -107,7 +216,7 @@
 				};
 			};
 			buildConfigurationList = AFC3B8BE27AE7EAF00986276 /* Build configuration list for PBXProject "LadybugFun" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -129,47 +238,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC3B8D227AE7EAF00986276 /* Main.storyboard in Resources */,
-				AFC3B8C927AE7EAF00986276 /* GameScene.sks in Resources */,
-				AFC3B8D427AE7EB100986276 /* Assets.xcassets in Resources */,
-				AFC3B8D727AE7EB100986276 /* LaunchScreen.storyboard in Resources */,
-				AFC3B8CB27AE7EAF00986276 /* Actions.sks in Resources */,
+				AFC3B97F27AEE09100986276 /* Main.storyboard in Resources */,
+				AFC3B99B27AEEC7400986276 /* HittingDick.wav in Resources */,
+				AFC3B99027AEE19300986276 /* GameScene.sks in Resources */,
+				AFC3B98C27AEE15700986276 /* MapOfLevels.sks in Resources */,
+				AFC3B99C27AEEC7700986276 /* HittingRock.wav in Resources */,
+				AFC3B99927AEEC6E00986276 /* ExtraLife.wav in Resources */,
+				AFC3B98827AEE14B00986276 /* MainMenuScene.sks in Resources */,
+				AFC3B8E127AED83300986276 /* GoogleService-Info.plist in Resources */,
+				AFC3B96E27AEE09100986276 /* Actions.sks in Resources */,
+				AFC3B99A27AEEC7100986276 /* GameOver.wav in Resources */,
+				AFC3B99D27AEEC7B00986276 /* Win.wav in Resources */,
+				AFC3B97527AEE09100986276 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E788089622731D407AB01C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LadybugFun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE730F250FC9745F7AD6A30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LadybugFun/Pods-LadybugFun-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LadybugFun/Pods-LadybugFun-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LadybugFun/Pods-LadybugFun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFC3B8BF27AE7EAF00986276 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC3B8CD27AE7EAF00986276 /* GameScene.swift in Sources */,
-				AFC3B8CF27AE7EAF00986276 /* GameViewController.swift in Sources */,
+				AFC3B98727AEE14900986276 /* MainMenuScene.swift in Sources */,
+				AFC3B98B27AEE15400986276 /* MapOfLevels.swift in Sources */,
 				AFC3B8C727AE7EAF00986276 /* AppDelegate.swift in Sources */,
+				AFC3B97327AEE09100986276 /* ShowAdViewController.swift in Sources */,
+				AFC3B97D27AEE09100986276 /* VibroNotifications.swift in Sources */,
+				AFC3B97927AEE09100986276 /* ReachabilityViewController.swift in Sources */,
+				AFC3B98F27AEE18E00986276 /* GameScene.swift in Sources */,
+				AFC3B97827AEE09100986276 /* PurchaseViewController.swift in Sources */,
+				AFC3B97627AEE09100986276 /* GameViewController.swift in Sources */,
+				AFC3B97127AEE09100986276 /* DifficultiesForLevels.swift in Sources */,
+				AFC3B97427AEE09100986276 /* ATT.swift in Sources */,
+				AFC3B96D27AEE09100986276 /* PauseMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		AFC3B8D027AE7EAF00986276 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC3B8D127AE7EAF00986276 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AFC3B8D527AE7EB100986276 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AFC3B8D627AE7EB100986276 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AFC3B8D827AE7EB100986276 /* Debug */ = {
@@ -223,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,6 +438,7 @@
 		};
 		AFC3B8DB27AE7EB100986276 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9332E56C7AE41770CDF50379 /* Pods-LadybugFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,12 +446,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L9RS3HZ369;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LadybugFun/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LadybugFun;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,12 +465,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AFC3B8DC27AE7EB100986276 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CCDF1095A75E6D06C1AB5B /* Pods-LadybugFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,12 +479,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L9RS3HZ369;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LadybugFun/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LadybugFun;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +498,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

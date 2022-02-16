@@ -4,17 +4,25 @@
 //
 //  Created by Владимир Ефимов on 05.02.2022.
 //
+// AD App ID: ca-app-pub-7520736117933543~9547791189
+// Inter AD ID: ca-app-pub-7520736117933543/3864397277
 
 import UIKit
+import GoogleMobileAds
+import Firebase
+import AppTrackingTransparency
+import AdSupport
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        GADMobileAds.sharedInstance().start(completionHandler: nil)
+
         return true
     }
 
@@ -33,6 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        requestPermission()
     }
 
 
